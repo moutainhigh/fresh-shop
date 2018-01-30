@@ -1,0 +1,40 @@
+upload:
+  filepath: D:\\fresh-shop\\webapps\\filebase\\QRCode
+  baseurl: http://192.168.0.111:9090/filebase/QRCode
+filebase:
+  filepath: D:\\fresh-shop\\webapps\\filebase
+  fileurl: http://192.168.0.111:9090/filebase
+spring:
+  http:
+    multipart:
+      max-file-size: 20mb
+      max-request-size: 20mb
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://192.168.0.110:3306/fresh_shop?characterEncoding=UTF-8
+    username: root
+    password: Password123
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 2
+    maxAction: 20
+    maxWaitMillis: 8000
+    dbcp2:
+          default-auto-commit: false
+  cache:
+    type: redis
+  redis:
+    database: 2
+    host: 127.0.0.1
+    port: 6379
+    timeout: 20000
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-idle: 8
+      max-wait: -1
+QRCode:
+    Texturl: http://192.168.0.111:9090/order/#/cm
+

@@ -1,0 +1,8 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8080
+  context-path: /
+spring:
+  profiles:
+    active: dev

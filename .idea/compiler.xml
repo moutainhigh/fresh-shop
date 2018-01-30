@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fresh-bills" />
+        <module name="fresh-front" />
+        <module name="fresh-goods" />
+        <module name="fresh-member" />
+        <module name="fresh-order" />
+        <module name="fresh-persistent" />
+        <module name="fresh-service" />
+        <module name="fresh-setting" />
+        <module name="fresh-voucher" />
+        <module name="hafu-core" />
+        <module name="image-base" />
+        <module name="user-center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fresh-bills" target="1.6" />
+      <module name="fresh-front" target="1.6" />
+      <module name="fresh-goods" target="1.6" />
+      <module name="fresh-member" target="1.6" />
+      <module name="fresh-order" target="1.6" />
+      <module name="fresh-persistent" target="1.6" />
+      <module name="fresh-service" target="1.6" />
+      <module name="fresh-setting" target="1.6" />
+      <module name="fresh-shop" target="1.6" />
+      <module name="fresh-voucher" target="1.6" />
+      <module name="hafu-core" target="1.6" />
+      <module name="image-base" target="1.6" />
+      <module name="user-center" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

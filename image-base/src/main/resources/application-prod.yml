@@ -1,0 +1,32 @@
+upload:
+  filepath: D:\\fresh-shop\\webapps\\filebase\\images
+  baseurl: http://fresh.hafu365.com/filebase/images/
+spring:
+  http:
+    multipart:
+      max-file-size: 20mb
+      max-request-size: 20mb
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://172.168.22.102:3306/fresh_data?characterEncoding=UTF-8
+    username: frd_p1
+    password: FrData789#$%
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 2
+    maxAction: 20
+    maxWaitMillis: 8000
+  cache:
+    type: redis
+  redis:
+    database: 2
+    host: 127.0.0.1
+    port: 6379
+    timeout: 20000
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-idle: 8
+      max-wait: -1

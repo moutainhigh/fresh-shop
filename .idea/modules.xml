@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fresh-bills/fresh-bills.iml" filepath="$PROJECT_DIR$/fresh-bills/fresh-bills.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-front/fresh-front.iml" filepath="$PROJECT_DIR$/fresh-front/fresh-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-goods/fresh-goods.iml" filepath="$PROJECT_DIR$/fresh-goods/fresh-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-member/fresh-member.iml" filepath="$PROJECT_DIR$/fresh-member/fresh-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-order/fresh-order.iml" filepath="$PROJECT_DIR$/fresh-order/fresh-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-persistent/fresh-persistent.iml" filepath="$PROJECT_DIR$/fresh-persistent/fresh-persistent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-service/fresh-service.iml" filepath="$PROJECT_DIR$/fresh-service/fresh-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-setting/fresh-setting.iml" filepath="$PROJECT_DIR$/fresh-setting/fresh-setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-shop.iml" filepath="$PROJECT_DIR$/fresh-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fresh-voucher/fresh-voucher.iml" filepath="$PROJECT_DIR$/fresh-voucher/fresh-voucher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hafu-core/hafu-core.iml" filepath="$PROJECT_DIR$/hafu-core/hafu-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image-base/image-base.iml" filepath="$PROJECT_DIR$/image-base/image-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-center/user-center.iml" filepath="$PROJECT_DIR$/user-center/user-center.iml" />
+    </modules>
+  </component>
+</project>

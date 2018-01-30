@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fresh-setting:war">
+    <output-path>$PROJECT_DIR$/fresh-setting/target</output-path>
+    <root id="archive" name="fresh-setting-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fresh-setting:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fresh-voucher:war">
+    <output-path>$PROJECT_DIR$/fresh-voucher/target</output-path>
+    <root id="archive" name="fresh-voucher-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fresh-voucher:war exploded" />
+    </root>
+  </artifact>
+</component>
